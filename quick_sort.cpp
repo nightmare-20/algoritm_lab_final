@@ -45,7 +45,7 @@ void quicksort(int arr[],int first,int last)
         j=last;
         while(i<j)
         {
-            while(arr[i]<arr[pivot]&&i<last) // for decsecnding >=  for ascending <
+            while(arr[i]<=arr[pivot]&&i<last) // for decsecnding >=  for ascending <
                 i++;
             while(arr[j]>arr[pivot]) // for decsecnding <  for ascending >
                 j--;
